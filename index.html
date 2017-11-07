@@ -99,7 +99,6 @@
         <div class="col-twelve tabs-wrap">
           <ul class="tabs">
             <li class="active" data-id="tab-about"><i class="icon-user"></i><span>À Propos</span></li>
-            <li data-id="tab-contact"><i class="icon-mail"></i><span>Contact</span></li>
           </ul>
           <!-- /tabs -->
 
@@ -154,68 +153,6 @@
               <!-- /tab-entry -->
             </div>
             <!-- /tab-about -->
-
-            <!-- tab content contact
-     				================================================== -->
-            <div id="tab-contact" class="tab-content">
-              <div class="tab-entry">
-                <div class="row tab-entry-intro">
-                  <div class="col-twelve with-bottom-line">
-                    <h1>Contactez-moi</h1>
-                    <p class="lead">
-                      Pour plus d'informations, ou tout autre renseignements, je reste disponible via ce formulaire, ainsi que sur ma page Facebook <a class="link_black" href="https://www.facebook.com/newyorkinside/" target="_blank">New-York Inside</a>.
-                    </p>
-                  </div>
-                </div>
-                <!-- /tab-content-intro -->
-                <div class="row form-wrap tab-entry-content">
-                  <div class="col-twelve">
-                    <!-- form -->
-                    <form name="contactForm" id="contactForm" method="post" action="inc/sendEmail.php">
-                      <fieldset>
-                        <div class="form-field">
-                          <input name="contactName" type="text" id="contactName" placeholder="Nom" value="" minlength="2" required="">
-                        </div>
-                        <div class="form-field">
-                          <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-                        </div>
-                        <div class="form-field">
-                          <input name="contactSubject" type="text" id="contactSubject" placeholder="Object" value="">
-                        </div>
-                        <div class="form-field">
-                          <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
-                        </div>
-                        <div class="form-field">
-                          <button class="submitForm button button-primary large">Envoyer</button>
-                          <div id="submit-loader">
-                            <div class="text-loader">Envoi...</div>
-                            <div class="s-loader">
-                              <div class="bounce1"></div>
-                              <div class="bounce2"></div>
-                              <div class="bounce3"></div>
-                            </div>
-                          </div>
-                          <!-- submit-loader -->
-                        </div>
-                      </fieldset>
-                    </form>
-                    <!-- /form -->
-
-                    <!-- contact-warning -->
-                    <div id="message-warning">
-                    </div>
-                    <!-- contact-success -->
-                    <div id="message-success">
-                      <i class="fa fa-check"></i>Votre message nous a bien été transmis, Merci!<br>
-                    </div>
-                  </div>
-                  <!-- /col-twelve -->
-                </div>
-                <!-- /row contact-form -->
-              </div>
-              <!-- /tab-entry -->
-            </div>
-            <!-- /tab-contact -->
           </div>
           <!-- /tab-container -->
         </div>
