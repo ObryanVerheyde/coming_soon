@@ -69,7 +69,7 @@ body {
  * links - (_document-setup)
  * ------------------------------------------------------------------- */
 a, a:visited {
-	color: #057f78;
+	color: #FBC14B;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -78,6 +78,13 @@ a, a:visited {
 }
 a:hover, a:focus {
 	color: #000000;
+}
+
+a.link_black:visited {
+	color: #000000;
+}
+a.link_black:hover {
+	color: #FBC14B;
 }
 
 /* ===================================================================
@@ -283,7 +290,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #034e4a;
+	background: #FBC14B;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -291,7 +298,7 @@ ul.disc li::before {
 }
 dt {
 	margin: 0;
-	color: #034e4a;
+	color: #FBC14B;
 }
 dd {
 	margin: 0 0 0 2rem;
@@ -471,7 +478,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus {
 	color: #000000;
-	border-color: #034e4a;
+	border-color: #FBC14B;
 }
 label, legend {
 	font-family: "roboto-bold", sans-serif;
@@ -573,7 +580,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #034e4a;
+	background: #FBC14B;
 	color: #FFFFFF;
 }
 
@@ -630,8 +637,8 @@ button.stroke.large,
 
 button.stroke:hover,
 .button.stroke:hover {
-	border: 3px solid #034e4a;
-	color: #034e4a;
+	border: 3px solid #FBC14B;
+	color: #FBC14B;
 }
 
 button::-moz-focus-inner,
@@ -778,7 +785,7 @@ input::-moz-focus-inner {
 	color: #252525;
 }
 .stats-tabs li a:hover {
-	color: #034e4a;
+	color: #FBC14B;
 }
 .stats-tabs li a em {
 	display: block;
@@ -870,7 +877,7 @@ header .social-links ul li a:visited {
 
 header .social-links ul li a:hover,
 header .social-links ul li a:focus {
-	color: #057f78;
+	color: #FBC14B;
 }
 
 /* -------------------------------------------------------------------
@@ -1109,7 +1116,7 @@ header .social-links ul li a:focus {
 	position: absolute;
 	height: 38px;
 	width: 25px;
-	border: 3px solid #FFFFFF;
+	border: 3px solid #FBC14B;
 	border-radius: 12px;
 	right: -13px;
 	top: 10px;
@@ -1297,7 +1304,7 @@ header .social-links ul li a:focus {
 	color: rgba(17, 17, 17, 0.8);
 }
 #info .tabs-wrap ul.tabs li.active {
-	background: #151515;
+	background: #FBC14B;
 	color: #FFFFFF;
 	border: none;
 }
@@ -1430,7 +1437,7 @@ header .social-links ul li a:focus {
 .about-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
-	color: #034e4a;
+	color: #FBC14B;
 }
 .about-list .icon i {
 	font-size: 5.4rem;
@@ -1494,7 +1501,7 @@ header .social-links ul li a:focus {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #034e4a;
+	background: #FBC14B;
 }
 
 #tab-contact .form-field label::after {
@@ -1504,7 +1511,7 @@ header .social-links ul li a:focus {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #034e4a;
+	border-right: 5px solid #FBC14B;
 	content: "";
 }
 
@@ -1525,7 +1532,7 @@ header .social-links ul li a:focus {
 }
 
 #tab-contact #message-success {
-	color: #034e4a;
+	color: #FBC14B;
 }
 
 #tab-contact #message-warning i,
@@ -1546,7 +1553,7 @@ header .social-links ul li a:focus {
 #submit-loader .text-loader {
 	display: none;
 	font-family: "roboto-black", sans-serif;
-	color: #034e4a;
+	color: #FBC14B;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
 }
@@ -1573,7 +1580,7 @@ header .social-links ul li a:focus {
 .s-loader > div {
 	width: 1rem;
 	height: 1rem;
-	background-color: #034e4a;
+	background-color: #FBC14B;
 	border-radius: 100%;
 	display: inline-block;
 	margin-right: .9rem;
@@ -1630,7 +1637,7 @@ header .social-links ul li a:focus {
  *
  * ------------------------------------------------------------------- */
 #cta {
-	background: #034e4a;
+	background: #FBC14B;
 	padding-top: 9rem;
 	padding-bottom: 7.8rem;
 	text-align: center;
@@ -1639,7 +1646,7 @@ header .social-links ul li a:focus {
 	color: rgba(255, 255, 255, 0.5);
 }
 #cta .button {
-	background: #02312e;
+	background: #FBC14B;
 	color: #FFFFFF;
 }
 #cta .button:hover {
@@ -1700,7 +1707,7 @@ header .social-links ul li a:focus {
  * ------------------------------------------------------------------- */
 footer {
 	text-align: center;
-	padding-bottom: 12rem;
+	padding-bottom: 9rem;
 	position: relative;
 }
 
@@ -1722,7 +1729,7 @@ footer .footer-social-list a:visited {
 
 footer .footer-social-list a:hover,
 footer .footer-social-list a:focus {
-	color: #057f78;
+	color: #FBC14B;
 }
 
 footer .footer-social-list li {
@@ -1757,7 +1764,7 @@ footer .footer-bottom a:visited {
 
 footer .footer-bottom a:hover,
 footer .footer-bottom a:focus {
-	color: #034e4a;
+	color: #FBC14B;
 }
 
 footer .footer-bottom .footer-logo {
@@ -1815,7 +1822,7 @@ footer .back-to-top {
 
 footer .back-to-top a {
 	display: block;
-	background: #034e4a;
+	background: #FBC14B;
 	padding: 1.2rem 3rem 1.5rem;
 	color: #FFFFFF;
 }
